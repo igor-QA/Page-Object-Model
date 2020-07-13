@@ -5,8 +5,8 @@ Run:
 
 all tests:
 
-# pytest .
+pytest .
 
 tests for review:
 
-# pytest -v --tb=line --language=en -m need_review test_product_page.py
+pytest -v --tb=line --language=en -m need_review test_product_page.py
