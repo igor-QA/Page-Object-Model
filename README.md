@@ -1,12 +1,12 @@
 # Page-Object-Model
-* Before running a project in Chrome, check that the version of ChromeDriver matches the version of your Chrome browser
+Before running a project in Chrome, check that the version of ChromeDriver matches the version of your Chrome browser
 
 Run:
 
 all tests:
 
-pytest .
+# pytest .
 
 tests for review:
 
-pytest -v --tb=line --language=en -m need_review test_product_page.py
+# pytest -v --tb=line --language=en -m need_review test_product_page.py
